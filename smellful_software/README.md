@@ -1,17 +1,7 @@
-# calendar_test3
+The main code for the application's different screens can be found in the "lib" folder.
 
-A new Flutter project.
+The hardware's code can be found in the "ESP32" folder.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# calendar_test3
+Because of the hardware's limitation, some elements from the PSSC are not doable. The user can't choose from four different smells, as the hardware contains only three smells.
+Same for the intensity choice, as there is only three levels possible. Putting more option would not make sense, as there would not be much difference between them.
+Thus said, it would be easy to change the parameters, and have more smells, and more intensity levels.
